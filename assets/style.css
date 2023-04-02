@@ -1,0 +1,124 @@
+.btn{
+    width: 100px;
+    height: 30px;
+    border: 1 solid black;
+    border-radius: 3px;
+}
+.btn0{
+    padding: 3px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius:50%;
+}
+.basket :hover{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    transition-duration: 1s;
+}
+ul.menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 15px 10px;
+}
+.spc-between{
+    justify-content: space-between;
+}
+ul.menu{
+    margin-left: 30px;
+}
+.bcc{
+    background-color: #f8f9fa;
+}
+.delete{
+    text-decoration:line-through ;
+}
+.input{
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid silver; 
+    margin-top: 15px;
+}
+.button{
+    width: 140px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.fs-20{
+    font-size: 50px;
+}
+.font-weight{
+    font-weight: 200;
+}
+.margin{
+    margin: 25px 0px;
+}
+.picture{
+    width: 100%;
+    height: 180px;
+}
+.m-1{
+    margin: 1rem;
+}
+.btn1{
+    border: 1px solid;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+}
+.hg{
+    height: max-content;
+}
+.foot{
+    height: 120px;
+    background-color: rgb(27, 26, 26);
+}
+.copyr{
+    padding-top: 40px;
+    text-align: center;
+    color: whitesmoke ;
+}
+.mtt{
+    margin-top: 10px;
+}
+.btn-menu{
+    display: none;
+    font-size: 18px;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7.5px 15px;
+    gap: 5px;
+    color: black;
+    
+}
+@media (max-width:678px){
+    .menu{
+        display: none;
+    }
+    .btn-menu{
+        display: flex;
+        margin-left: 70px;
+    }
+
+}
+@media(max-width:589px){
+    .btn-menu span{
+        display: none;
+    }
+    .btn-menu i{
+        font-size: 15px;
+    }
+    .row>.col-mob-12 {
+        width: calc(100%/1);
+    }
+}
